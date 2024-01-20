@@ -56,7 +56,7 @@ export const experiencesData = [
     title: ["Software Engineering Intern"],
     description:
       [
-        ["Engineered an automated Natural Language Processing (NLP) translation pipeline of marketing documents using Python, FastAPI, OpenAI API, and AWS Sagemaker, replacing manual translation and saving $2,000 monthly"],
+        ["Engineered an automated Natural Language Processing translation pipeline of marketing documents using Python, FastAPI, OpenAI API, replacing manual translation and saving $2,000 monthly"],
       ],
   },
   {
@@ -68,7 +68,7 @@ export const experiencesData = [
     title: ["Data Engineer for the Tunnel Neutralization Team"],
     description:
       [
-        [" Implemented a scalable PostgreSQL database system to store reconnaissance mission logs, reducing average data entry time from 50 to 10 minutes per mission through streamlined data management"," Identified and located over 30 North Korean underground activities by processing geological sound data with Fast Fourier Transformation and Spectral Analysis techniques using SQL, Excel, and proprietary military tools"],
+        ["Implemented a PostgreSQL database system to store reconnaissance mission logs, reducing average data entry time from 50 to 10 minutes per mission through streamlined data management"," Identified and located over 30 North Korean underground activities by processing geological sound data with Fast Fourier Transformation and Spectral Analysis techniques"],
       ],
   },
   {
@@ -81,7 +81,7 @@ export const experiencesData = [
       [
         [" Developed Convolutional Neural Network visualization pipelines using Deconvolution, Filter Visualization, and Activation Maximization techniques written in Tensorflow for easier interpretability"],
         ["Designed an end-to-end Machine Learning pipeline for analyzing cancer relapse rates based on 20,000 gene map samples using Python scikit-learn"],
-        ["Data Structure and Algorithms, Intro to Python, Multivariable Calculus"],
+        ["Data Structure and Algorithms, Intro to Python, Multivariable Calculus (2020 ~ Present)"],
         ["Freshman Resident Advisor (2020 ~ Present)"],
       ],
   },

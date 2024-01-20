@@ -15,7 +15,7 @@ type ProjectProps = {
 
 export default function Project({title, description, tags, link, github, imageUrl}: ProjectProps) {
     return (
-        <section className="group bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-3 relative sm:h-[20rem] mb-3 sm:mb-8 last:mb-0 sm:even:pl-8 hover:bg-gray-200 transition rounded-lg">
+        <section className="group bg-gray-200 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-3 relative sm:h-[20rem] mb-3 sm:mb-8 last:mb-0 sm:even:pl-8 hover:bg-gray-300 transition rounded-lg">
             <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem] mb-5 sm:mb-0">
                 <h3 className="text-2xl font-semibold">{title}</h3>
                 <p className="mt-2 leading-relaxed text-gray-700">{description}</p>
@@ -25,7 +25,18 @@ export default function Project({title, description, tags, link, github, imageUr
                     ))}
                 </ul>
             </div>
-            <Image src={imageUrl} alt={title} quality={95} className="absolute hidden sm:block top-0 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-even:-right-[initial] group-even:-left-40" />
+
+            <div className="absolute hidden sm:block top-0 -right-40 w-[40rem] h-full group-even:-right-[initial] group-even:-left-40 bg-gray-10 rounded-t-lg">
+                <Image 
+                    src={imageUrl} 
+                    alt={title} 
+                    quality={95} 
+                    layout="fill" 
+                    objectFit="contain"
+                />
+            </div>
+
+            {/* <Image src={imageUrl} alt={title} quality={95} layout="fill" objectFit="contain" className="absolute hidden sm:block top-0 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-even:-right-[initial] group-even:-left-40" /> */}
 
 
             <a href={github} target="_blank" rel="noopener noreferrer" className="absolute bottom-2 right-3 bg-black text-white py-2 px-4 rounded hover:bg-gray-800">
