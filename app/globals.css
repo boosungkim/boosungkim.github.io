@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    --line-color: #e5e7eb
+}
+
+.borderBlack {
+    @apply border border-black/10;
+}
+
+.hyperlinks {
+    @apply font-bold hover:underline hover:text-[#003333];
+}
