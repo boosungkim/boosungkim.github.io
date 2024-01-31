@@ -34,7 +34,7 @@ export default function Intro() {
                 Hi, I'm <span className="font-bold">Boosung Kim!</span> I create innovative tech solutions for the world.
             </h1>
             <p className="mb-10 mt-2 sm:mx-auto sm:w-[40rem] px-4">
-                I am a Sofware Engineer specializing in building backend and ML services with over <a href="#experience" className="hyperlinks">2 years</a> of experience. I'm currently working with <a href="https://www.84lumber.com/" className="hyperlinks">84 Lumber</a> as an AI Solutions Architect Intern (Volunteer) while attending college (expected 2025).
+                I am a Software Engineer specializing in building backend and ML services with over <a href="#experience" className="hyperlinks">2 years</a> of experience. I'm currently working with <a href="https://www.84lumber.com/" className="hyperlinks">84 Lumber</a> as an AI Solutions Architect Intern (Volunteer) while attending college (expected 2025).
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">
