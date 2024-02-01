@@ -35,7 +35,7 @@ export default function Intro() {
             </h1>
             <p className="mb-10 mt-2 sm:mx-auto sm:w-[40rem] px-4">
                 I am a Software Engineer specializing in building backend and ML services with over <a href="#experience" className="hyperlinks">2 years</a> of experience. I'm currently working with <a href="https://www.84lumber.com/" className="hyperlinks">84 Lumber</a> as an AI Solutions Architect Intern (Volunteer) while attending college (expected 2025).
-            </p>
+            </p> 
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">
                 <Link href="#contact" className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 focus:bg-orange-600 hover:scale-105 hover:bg-orange-600 active:scale-103 transition" onClick={() => {
