@@ -29,6 +29,10 @@ export const links = [
     hash: "#projects",
   },
   {
+    name: "Blog",
+    hash: "#blog",
+  },
+  {
     name: "Contact",
     hash: "#contact",
   },
@@ -37,7 +41,7 @@ export const links = [
 export const experiencesData = [
   {
     num: 1,
-    date: "2023 - Present",
+    date: "2023 Fall",
     company: "84 Lumber",
     imageUrl: lumberImg,
     location: "Carlisle, PA",
