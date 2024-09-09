@@ -87,7 +87,7 @@ const Home = () => (
           <Link as={NextLink} href="https://www.dickinson.edu/" passHref scroll={false}>
             Dickinson College
           </Link>
-          {' '}and plan on graduating in May 2025. Outside of classes, I like getting
+          {' '}and plan on graduating in May 2025. Outside of classes, I like
           hacking and getting involved in different open source communities.
         </Paragraph>
 
