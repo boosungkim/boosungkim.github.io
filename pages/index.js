@@ -9,7 +9,7 @@ import {
   ListItem,
   useColorModeValue
 } from '@chakra-ui/react'
-// import { EmailIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
@@ -31,7 +31,7 @@ const Home = () => (
         Building the backbone of tomorrow&apos;s intelligence.
       </Box>
 
-      <Box display={{ md: 'flex' }}>
+      <Box display={{ md: 'flex' }} alignItems="center">
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Boosung Kim
@@ -90,18 +90,6 @@ const Home = () => (
           {' '}and plan on graduating in May 2025. Outside of classes, I like
           hacking and getting involved in different open source communities.
         </Paragraph>
-
-        {/* <Box align="center" my={4}>
-          <Button
-            as={NextLink}
-            href="/works"
-            scroll={false}
-            rightIcon={<ChevronRightIcon />}
-            colorScheme="teal"
-          >
-            My portfolio
-          </Button>
-        </Box> */}
       </Section>
 
       <Section delay={0.3}>
@@ -111,6 +99,23 @@ const Home = () => (
         <Paragraph>
           Swimming, Hot springs, Star gazing, 3D printing
         </Paragraph>
+      </Section>
+
+      <Section delay={0.3}>
+        <Paragraph style={{ textIndent: '0' }}>
+          I sometimes write about my projects and work as well. Check it out!
+        </Paragraph>
+        <Box align="center" my={4}>
+          <Button
+            as={NextLink}
+            href="https://boosung.substack.com/"
+            scroll={false}
+            rightIcon={<ChevronRightIcon />}
+            colorScheme="teal"
+          >
+            My SubStack
+          </Button>
+        </Box>
       </Section>
 
       <Section delay={0.3}>
