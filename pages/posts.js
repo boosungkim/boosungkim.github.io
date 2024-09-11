@@ -15,7 +15,7 @@ import thumb50xFaster from '../public/images/contents/youtube-50x-faster.jpg'
 const Posts = () => (
   <Layout title="Posts">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
+      <Heading as="h1" fontSize={35} mb={4}>
         Popular Posts
       </Heading>
 
