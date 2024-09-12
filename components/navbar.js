@@ -115,7 +115,7 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/">
                   Home
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/works">
+                <MenuItem as={MenuLink} href="/experience">
                   Experience
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/works">
