@@ -13,7 +13,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
 
 const Home = () => (
@@ -132,6 +132,17 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
+            <Link href="https://www.linkedin.com/in/boosungk/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+                @boosungk
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
             <Link href="https://twitter.com/bytesofboosung" target="_blank">
               <Button
                 variant="ghost"
@@ -143,26 +154,6 @@ const Home = () => (
             </Link>
           </ListItem>
         </List>
-
-        {/* <Heading as="h3" variant="section-title">
-          Newsletter
-        </Heading>
-        <p>
-          Join me on a behind-the-scenes coding journey. Weekly updates on
-          projects, tutorials, and videos
-        </p>
-
-        <Box align="center" my={4}>
-          <Button
-            as={NextLink}
-            href="https://www.devas.life/"
-            scroll={false}
-            leftIcon={<EmailIcon />}
-            colorScheme="teal"
-          >
-            Sign up my newsletter here
-          </Button>
-        </Box> */}
       </Section>
     </Container>
   </Layout>
