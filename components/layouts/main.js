@@ -11,16 +11,14 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Boosung's homepage" />
         <meta name="author" content="Boosung Kim" />
         <meta name="author" content="boosungkim" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="star" href="star.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="twitter:title" content="Boosung Kim" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@bytesofboosung" />
-        <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
         <meta property="og:site_name" content="Boosung Kim" />
         <meta name="og:title" content="Boosung Kim" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
         <title>Boosung Kim - Homepage</title>
       </Head>
 

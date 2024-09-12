@@ -21,7 +21,7 @@ const Works = () => (
             title="Frody" 
             thumbnail={thumbFrody}
           >
-            Real-time credit card fraud detection system. PennsApps 2023 &apos;Most Technically Complex&apos; and &apos;Best Distributed Systems&apos; winner.
+            Real-time credit card fraud detection system. PennsApps 2023 winning project.
           </WorkGridItem>
         </Section>
 
