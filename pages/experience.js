@@ -56,7 +56,7 @@ const Home = () => (
         </Box>
 
         <Paragraph>
-          I was on the Conversion team.
+          Developed backend services to streamline file conversions, contributing to infrastructure improvements and preview/AI feature additions for seamless cloud content management.
         </Paragraph>
       </Section>
 
@@ -98,7 +98,7 @@ const Home = () => (
         </Box>
 
         <Paragraph>
-          I handled tunnels.
+          Detected and analyzed North Korean underground activities using advanced data processing techniques and ensured operational safety in the Demilitarized Zone.
         </Paragraph>
       </Section>
 
@@ -109,9 +109,9 @@ const Home = () => (
               Dickinson College
             </Heading>
             <Heading as="h4" fontSize={20}>
-              Teaching Assistant
+              Computer Vision Research Intern
             </Heading>
-            <p>Carlisle, PA (<Text as="span" fontStyle="italic">2020 ~ 2021, 2023 ~ Present</Text>)</p>
+            <p>Carlisle, PA (<Text as="span" fontStyle="italic">Summer 2021</Text>)</p>
           </Box>
           <Box
             flexShrink={0}
@@ -140,8 +140,34 @@ const Home = () => (
         </Box>
 
         <Paragraph>
+          Developed Convolutional Neural Network visualization pipelines using Deconvolution, Filter Visualization, and Activation Maximization techniques written in Python and Tensorflow for easier interpretability.
+        </Paragraph>
+
+        <br />
+
+        <Box flexGrow={1}>
+          <Heading as="h4" fontSize={20}>
+            Research Assistant at Roberts Biology Lab
+          </Heading>
+          <p>(<Text as="span" fontStyle="italic">Spring 2021</Text>)</p>
+        </Box>
+        <Paragraph>
+          Developed data pipelines and trained machine learning models to predict EGR1 cancer relapse levels, contributing to weekly meetings and presenting research findings on Acute Myeloid Leukemia.
+        </Paragraph>
+
+        <br />
+
+        <Box flexGrow={1}>
+          <Heading as="h4" fontSize={20}>
+            Teaching Assistant
+          </Heading>
+          <p>(<Text as="span" fontStyle="italic">2020 ~ 2021, 2023 ~ Present</Text>)</p>
+        </Box>
+        <Paragraph>
           I taught students.
         </Paragraph>
+
+        <br />
 
         <Box flexGrow={1}>
           <Heading as="h4" fontSize={20}>
@@ -150,12 +176,9 @@ const Home = () => (
           <p>(<Text as="span" fontStyle="italic">2020 ~ 2021, 2023 ~ Present</Text>)</p>
         </Box>
         <Paragraph>
-          I took care of students.
+          I took care of freshmen.
         </Paragraph>
       </Section>
-
-
-
     </Container>
   </Layout>
 )

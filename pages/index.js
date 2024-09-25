@@ -70,7 +70,38 @@ const Home = () => (
         </Heading>
         <Paragraph>
           I am a software engineer specializing in building backend infrastructures
-          and distributed systems. After winning the Best Distributed Systems award
+          and distributed systems.
+        </Paragraph>
+        <br />
+        <List>
+          <ListItem>
+            💻 Previous SWE Intern @ Box
+          </ListItem>
+          <ListItem>
+            ❤️‍🔥 Passion for developing scalable and reliable systems that can support complex features, such as AI
+          </ListItem>
+          <ListItem>
+            🎓 Senior majoring in Computer Science and Math @ Dickinson College
+          </ListItem>
+          <ListItem>
+            🌠 I love star gazing and water related sports 🌊
+          </ListItem>
+        </List>
+        <br />
+        <Paragraph>
+          💬 I love meeting and talking to new people! Feel free to reach out:{' '}
+          <Link as={NextLink} href="mailto:boosung@boosungkim.com" passHref scroll={false}>
+            boosung@boosungkim.com
+          </Link>
+        </Paragraph>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Story
+        </Heading>
+        <Paragraph>
+          While I started off interested in AI research and data science, after winning the Best Distributed Systems award
           in the{' '}
           <Link as={NextLink} href="https://devpost.com/software/temptemp" passHref scroll={false}>
             2023 PennApps hackathon
@@ -81,23 +112,6 @@ const Home = () => (
           </Link>
           , I developed a passion for building scalable and reliable systems that
           can support complex features like AI.
-        </Paragraph>
-        <Paragraph>
-          I am currently a senior at{' '}
-          <Link as={NextLink} href="https://www.dickinson.edu/" passHref scroll={false}>
-            Dickinson College
-          </Link>
-          {' '}and plan on graduating in May 2025. Outside of classes, I like
-          hacking and getting involved in different open source communities.
-        </Paragraph>
-      </Section>
-
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          I ♥
-        </Heading>
-        <Paragraph>
-          Swimming, Hot springs, Star gazing, 3D printing
         </Paragraph>
       </Section>
 

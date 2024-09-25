@@ -21,7 +21,7 @@ const Works = () => (
             title="Frody" 
             thumbnail={thumbFrody}
           >
-            Real-time credit card fraud detection system. PennsApps 2023 winning project.
+            Real-time credit card fraud detection system. PennsApps 2023 award-winning project.
           </WorkGridItem>
         </Section>
 
@@ -38,10 +38,10 @@ const Works = () => (
         <Section delay={0.1}>
           <WorkGridItem
             id="chess"
-            title="Chess for Soldiers"
+            title="Custom Chess Engine"
             thumbnail={thumbChess}
           >
-            Custom chess enginer made for soldiers without internet access.
+            Custom chess engine that I later used for soldiers without internet access.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

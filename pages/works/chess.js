@@ -11,10 +11,10 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Chess for Soldiers">
+  <Layout title="Custom Chess Engine">
     <Container>
       <Title>
-        Chess for Soldiers <Badge>2022</Badge>
+        Custom Chess Engine <Badge>2022</Badge>
       </Title>
       <P>
         Once upon a time, when I was serving in the Republic of Korea Army, I noticed that there was no proper recreational activity for soldiers at our base. So, I decided to create a chess game that could be played offline. I coded the game in Python and used MySQL to store the game data. I also created a simple web interface using Django to allow soldiers to compete with each other.
