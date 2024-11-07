@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbFrody from '../public/images/works/frody.png'
+import thumbHackathon from '../public/images/works/hackathon.png'
 import thumbDll from '../public/images/works/dll.png'
 import thumbChess from '../public/images/works/chess.png'
 
@@ -17,11 +17,11 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem 
-            id="frody" 
-            title="Frody" 
-            thumbnail={thumbFrody}
+            id="hackathon" 
+            title="The Hackathon Trilogy" 
+            thumbnail={thumbHackathon}
           >
-            Real-time credit card fraud detection system. PennsApps 2023 award-winning project.
+            A trilogy of (general) hackathons I attended in a one-year time span, which changed me fundamentally as a developer.
           </WorkGridItem>
         </Section>
 
