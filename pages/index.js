@@ -84,7 +84,7 @@ const Home = () => (
             🎓 Senior majoring in Computer Science and Math @ Dickinson College
           </ListItem>
           <ListItem>
-            🌠 I love star gazing and water related sports 🌊
+            🌊 I love water related sports and star gazing 🌠
           </ListItem>
         </List>
         <br />
