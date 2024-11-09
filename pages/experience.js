@@ -1,15 +1,10 @@
 // import NextLink from 'next/link'
 import {
-  // Link,
   Container,
-  Heading,
-  Box,
-  Text
+  Heading
 } from '@chakra-ui/react'
-import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import Image from 'next/image'
+import ExperienceSection from '../components/experience-section'
 
 const Home = () => (
   <Layout>
@@ -18,167 +13,55 @@ const Home = () => (
         Experience
       </Heading>
 
-      <Section delay={0.1}>
-        <Box display={{ md: 'flex' }} alignItems="center">
-          <Box flexGrow={1}>
-            <Heading as="h3" fontSize={30}>
-              Box
-            </Heading>
-            <Heading as="h4" fontSize={20}>
-              SWE Intern - Conversion Team (Storage)
-            </Heading>
-            <p>Redwood City, California (<Text as="span" fontStyle="italic">Summer 2024</Text>)</p>
-          </Box>
-          <Box
-            flexShrink={0}
-            mt={{ base: 4, md: 0 }}
-            ml={{ md: 6 }}
-            textAlign="center"
-          >
-            <Box
-              borderColor="whiteAlpha.800"
-              borderWidth={2}
-              borderStyle="solid"
-              w="90px"
-              h="90px"
-              display="inline-block"
-              borderRadius="full"
-              overflow="hidden"
-            >
-              <Image
-                src="/images/experiences/box.png"
-                alt="Company logo"
-                width="100"
-                height="100"
-              />
-            </Box>
-          </Box>
-        </Box>
+      <ExperienceSection
+        title="Box, Inc."
+        role="SWE Intern"
+        location="Redwood City, California"
+        period="Summer 2024"
+        description="Developed backend services to streamline file conversions, contributing to infrastructure improvements and preview/AI feature additions for seamless cloud content management."
+        skills={["Scala", "Google Cloud Platform", "Kubernetes", "Distributed Systems"]}
+        imageSrc="/images/experiences/box.png"
+      />
 
-        <Paragraph>
-          Developed backend services to streamline file conversions, contributing to infrastructure improvements and preview/AI feature additions for seamless cloud content management.
-        </Paragraph>
-      </Section>
+      <ExperienceSection
+        title="Republic of Korea Army"
+        role="Underground Tunnel Detection Specialist"
+        location="Paju, South Korea"
+        period="2021 ~ 2023"
+        description="Detected and analyzed North Korean underground activities using advanced data processing techniques and ensured operational safety in the Demilitarized Zone."
+        skills={["Python", "Teamwork", "Data Analysis"]}
+        imageSrc="/images/experiences/army.png"
+      />
 
-      <Section delay={0.1}>
-        <Box display={{ md: 'flex' }} alignItems="center">
-          <Box flexGrow={1}>
-            <Heading as="h3" fontSize={30}>
-              Republic of Korea Army
-            </Heading>
-            <Heading as="h4" fontSize={20}>
-              Tunnel Neutralization Team
-            </Heading>
-            <p>Paju, South Korea (<Text as="span" fontStyle="italic">2021 ~ 2023</Text>)</p>
-          </Box>
-          <Box
-            flexShrink={0}
-            mt={{ base: 4, md: 0 }}
-            ml={{ md: 6 }}
-            textAlign="center"
-          >
-            <Box
-              borderColor="whiteAlpha.800"
-              borderWidth={2}
-              borderStyle="solid"
-              w="90px"
-              h="90px"
-              display="inline-block"
-              borderRadius="full"
-              overflow="hidden"
-            >
-              <Image
-                src="/images/experiences/army.png"
-                alt="Company logo"
-                width="100"
-                height="100"
-              />
-            </Box>
-          </Box>
-        </Box>
+      <ExperienceSection
+        title="Dickinson College"
+        role="Computer Vision Research Intern"
+        location="Carlisle, PA"
+        period="Summer 2021"
+        description="Developed Convolutional Neural Network visualization pipelines using Deconvolution, Filter Visualization, and Activation Maximization techniques written in Python and Tensorflow for easier interpretability."
+        skills={["Python", "Tensorflow", "Computer Vision", "Docker"]}
+        imageSrc="/images/experiences/dickinson.png"
+      />
 
-        <Paragraph>
-          Detected and analyzed North Korean underground activities using advanced data processing techniques and ensured operational safety in the Demilitarized Zone.
-        </Paragraph>
-      </Section>
+      <ExperienceSection
+        title="Dickinson College"
+        role="Research Assistant at Roberts Biology Lab"
+        location="Carlisle, PA"
+        period="Spring 2021"
+        description="Developed data pipelines and trained machine learning models to predict EGR1 cancer relapse levels, contributing to weekly meetings and presenting research findings on Acute Myeloid Leukemia."
+        skills={["Python", "Machine Learning"]}
+        imageSrc="/images/experiences/dickinson.png"
+      />
 
-      <Section delay={0.1}>
-        <Box display={{ md: 'flex' }} alignItems="center">
-          <Box flexGrow={1}>
-            <Heading as="h3" fontSize={30}>
-              Dickinson College
-            </Heading>
-            <Heading as="h4" fontSize={20}>
-              Computer Vision Research Intern
-            </Heading>
-            <p>Carlisle, PA (<Text as="span" fontStyle="italic">Summer 2021</Text>)</p>
-          </Box>
-          <Box
-            flexShrink={0}
-            mt={{ base: 4, md: 0 }}
-            ml={{ md: 6 }}
-            textAlign="center"
-          >
-            <Box
-              borderColor="whiteAlpha.800"
-              borderWidth={2}
-              borderStyle="solid"
-              w="90px"
-              h="90px"
-              display="inline-block"
-              borderRadius="full"
-              overflow="hidden"
-            >
-              <Image
-                src="/images/experiences/dickinson.png"
-                alt="Company logo"
-                width="100"
-                height="100"
-              />
-            </Box>
-          </Box>
-        </Box>
-
-        <Paragraph>
-          Developed Convolutional Neural Network visualization pipelines using Deconvolution, Filter Visualization, and Activation Maximization techniques written in Python and Tensorflow for easier interpretability.
-        </Paragraph>
-
-        <br />
-
-        <Box flexGrow={1}>
-          <Heading as="h4" fontSize={20}>
-            Research Assistant at Roberts Biology Lab
-          </Heading>
-          <p>(<Text as="span" fontStyle="italic">Spring 2021</Text>)</p>
-        </Box>
-        <Paragraph>
-          Developed data pipelines and trained machine learning models to predict EGR1 cancer relapse levels, contributing to weekly meetings and presenting research findings on Acute Myeloid Leukemia.
-        </Paragraph>
-
-        <br />
-
-        <Box flexGrow={1}>
-          <Heading as="h4" fontSize={20}>
-            Teaching Assistant
-          </Heading>
-          <p>(<Text as="span" fontStyle="italic">2020 ~ 2021, 2023 ~ Present</Text>)</p>
-        </Box>
-        <Paragraph>
-          I taught students.
-        </Paragraph>
-
-        <br />
-
-        <Box flexGrow={1}>
-          <Heading as="h4" fontSize={20}>
-            Resident Advisor
-          </Heading>
-          <p>(<Text as="span" fontStyle="italic">2020 ~ 2021, 2023 ~ Present</Text>)</p>
-        </Box>
-        <Paragraph>
-          I took care of freshmen.
-        </Paragraph>
-      </Section>
+      <ExperienceSection
+        title="Dickinson College"
+        role="Teaching Assistant, Resident Advisor"
+        location="Carlisle, PA"
+        period="2020 ~ 2021, 2023 ~ Present"
+        description="Taught students. Took care of students."
+        skills={[]}
+        imageSrc="/images/experiences/dickinson.png"
+      />
     </Container>
   </Layout>
 )
