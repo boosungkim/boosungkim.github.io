@@ -10,6 +10,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
@@ -113,6 +114,23 @@ const Home = () => (
           , I developed a passion for building scalable and reliable systems that
           can support complex features like AI.
         </Paragraph>
+      </Section>
+
+      <Section delay={0.3}>
+        <Paragraph style={{ textIndent: '0' }}>
+          I sometimes write about my projects and work as well. Check it out!
+        </Paragraph>
+        <Box align="center" my={4}>
+          <Button
+            as={NextLink}
+            href="https://boosung.substack.com/"
+            scroll={false}
+            rightIcon={<ChevronRightIcon />}
+            colorScheme="teal"
+          >
+            My SubStack
+          </Button>
+        </Box>
       </Section>
 
       <Section delay={0.3}>
